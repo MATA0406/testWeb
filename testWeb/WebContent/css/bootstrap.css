@@ -168,7 +168,7 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -4295,7 +4295,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: #ff7200;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -4306,7 +4306,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #000;
+  #ff7200;
 }
 
 .navbar-dark .navbar-toggler {
@@ -8986,10 +8986,20 @@ a.text-dark:hover, a.text-dark:focus {
 		border-radius: 40px;
 		margin-top: 10px;
 		}
+		
+	.searchimg{
+		margin-left: 5px;
+	}
+	
+	input:focus {
+	outline: none;
+	}
+
 }
 	/* 혜진 수정*/
 	.flyout-search{
-		width: 500px;
+		width: 300px;
 		height: 40px;
+		margin-top: auto;
 	}
 /*# sourceMappingURL=bootstrap.css.map */
