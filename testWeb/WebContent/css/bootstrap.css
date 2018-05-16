@@ -494,7 +494,7 @@ mark,
 .figure {
   display: inline-block;
 }
-
+.col
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
@@ -628,6 +628,9 @@ pre code {
   background-color: #f0f0f0;
   align-self:center;
   margin-right: inherit;
+  min-height: 50px;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
 }
 
 .col-auto {
@@ -9001,9 +9004,6 @@ a.text-dark:hover, a.text-dark:focus {
 	}
 	
 	/* 메뉴바 */
-	menubar{
-		
-	}
 
 }
 	/* 혜진 수정*/

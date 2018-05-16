@@ -50,7 +50,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<!-- 최상위 메뉴 -->
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a class="nav-link" href="#">서비스소개
+					<li class="nav-item active"><a class="nav-link" href="#" style="font-family: 'Malgun Gothic'">서비스소개
 							<span class="sr-only">(current)</span>
 					</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">튜터 등록</a></li>
@@ -62,6 +62,7 @@
 	</nav>
 
 	<!-- 헤더 -->
+	<!-- 배너 -->
 	<header>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -73,23 +74,15 @@
 			<div class="carousel-inner" role="listbox">
 				<!-- Slide One -->
 				<div class="carousel-item active" 
-					style="background-image: url('../images/baner1.png')" >
+					style="background-image: url('../images/baner1.png'); cursor: pointer;" onclick="location.href='#'" >
 				</div>
 				<!-- Slide Two -->
 				<div class="carousel-item"
-					style="background-image: url('http://placehold.it/1900x1080')">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Second Slide</h3>
-						<p>This is a description for the second slide.</p>
-					</div>
+					style="background-image: url('../images/baner2.png'); cursor: pointer;" onclick="location.href='#'" >
 				</div>
 				<!-- Slide Three -->
 				<div class="carousel-item"
-					style="background-image: url('http://placehold.it/1900x1080')">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Third Slide</h3>
-						<p>This is a description for the third slide.</p>
-					</div>
+					style="background-image: url('../images/baner3.png'); cursor: pointer;" onclick="location.href='#'" >
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -107,19 +100,24 @@
 	
 	<!-- 메뉴바 -->
 	<div class="container" align="center">
-		<div class="row">
-			<div class=col>인기수업</div>
-			<div class=col>스포츠</div>
-			<div class=col>뷰티</div>
-			<div class=col>음악</div>
-			<div class=col>요리/음식</div>
-			<div class=col>디자인</div>
-			<div class=col>실무</div>
-			<div class=col>외국어</div>
-			<div class=col>프로그래밍</div>
-			<div class=col>라이프스타일</div>
+		<div class="row" style="background-color: #f0f0f0">
+			<div class=col onclick="goUrl(hot)">인기수업</div>
+			<div class=col onclick="goUrl(sports)">스포츠</div>
+			<div class=col onclick="goUrl(beauty)">뷰티</div>
+			<div class=col onclick="goUrl(music)">음악</div>
+			<div class=col onclick="goUrl(cook)">요리/음식</div>
+			<div class=col onclick="goUrl(design)">디자인</div>
+			<div class=col onclick="goUrl(working)">실무</div>
+			<div class=col onclick="goUrl(language)">외국어</div>
+			<div class=col onclick="goUrl(programming)">프로그래밍</div>
+			<div class=col onclick="goUrl(lifeStyle)">라이프스타일</div>
 		</div>
 	</div>
+	<script>
+		function goUrl(val){
+			location.href = "/view/main.jsp"
+		}
+	</script>
 
 	<!-- 카테고리 -->
 	<section class="py-5">
