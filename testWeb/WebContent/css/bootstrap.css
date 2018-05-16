@@ -8967,7 +8967,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table-dark {
     color: inherit;
   }
-  .table-dark th,
+  .table-dark th,`
   .table-dark td,
   .table-dark thead th,
   .table-dark tbody + tbody {
@@ -8987,4 +8987,9 @@ a.text-dark:hover, a.text-dark:focus {
 		margin-top: 10px;
 		}
 }
+	/* 혜진 */
+	.flyout-search{
+		width: 500px;
+		height: 40px;
+	}
 /*# sourceMappingURL=bootstrap.css.map */
