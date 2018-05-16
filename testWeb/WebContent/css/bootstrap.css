@@ -625,6 +625,9 @@ pre code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+  background-color: #f0f0f0;
+  align-self:center;
+  margin-right: inherit;
 }
 
 .col-auto {
@@ -1939,7 +1942,7 @@ select.form-control:focus::-ms-value {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  padding: 0.25rem 0.5rem;
+  /* padding: 0.25rem 0.5rem; */
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem;
@@ -8979,20 +8982,27 @@ a.text-dark:hover, a.text-dark:focus {
   }
   
   /* 진호 */
- 	.searchdiv {
-		width: 450px;
-		height: 40px;
-		border: 3px solid #ff0000;
-		border-radius: 40px;
-		margin-top: 10px;
-		}
-		
+	.searchdiv {
+	width: 450px;
+	height: 40px;
+	border: 3px solid #ff0000;
+	border-radius: 40px;
+	margin-top: 10px;
+	}
+	
+	/* 검색창 마진 */
 	.searchimg{
 		margin-left: 5px;
 	}
 	
+	/* 검색창 테투리 */
 	input:focus {
 	outline: none;
+	}
+	
+	/* 메뉴바 */
+	menubar{
+		
 	}
 
 }
