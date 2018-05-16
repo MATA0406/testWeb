@@ -72,12 +72,8 @@
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<!-- Slide One -->
-				<div class="carousel-item active"
-					style="background-image: url('http://placehold.it/1900x1080')">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>First Slide</h3>
-						<p>This is a description for the first slide.</p>
-					</div>
+				<div class="carousel-item active" 
+					style="background-image: url('../images/baner1.png')" >
 				</div>
 				<!-- Slide Two -->
 				<div class="carousel-item"
